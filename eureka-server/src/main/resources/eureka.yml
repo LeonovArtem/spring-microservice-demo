@@ -1,0 +1,17 @@
+eureka:
+  client:
+    # Т.к это не клиент отключаем не нужное - это все включается только для клиентов
+    register-with-eureka: false
+    fetch-registry: false
+
+    # URL где будет происходить регисрациия микросервисов
+    service-url:
+      defaultZone: http://localhost:8081/eureka
+
+# отключаем лишние логи
+logging:
+  level:
+    com:
+      netflix:
+        eureka: off
+        discovery: off
