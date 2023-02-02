@@ -1,5 +1,6 @@
 eureka:
   instance:
+    hostname: localhost
     prefer-ip-address: true
   client:
     # Т.к это не клиент отключаем не нужное - это все включается только для клиентов

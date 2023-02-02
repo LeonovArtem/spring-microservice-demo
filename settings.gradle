@@ -2,3 +2,4 @@ rootProject.name = 'spring-microservice-demo'
 
 include 'eureka-server'
 include 'product-service'
+include 'api-gateway'
