@@ -1,0 +1,8 @@
+eureka:
+  instance:
+    hostname: localhost
+    prefer-ip-address: true
+  client:
+    # URL где будет происходить регисрациия микросервисов
+    service-url:
+      defaultZone: http://localhost:8081/eureka
