@@ -8,7 +8,7 @@
 - Product Service: http://localhost:9001/product
 
 ### Endpoints:
-- http://localhost:8082/PRODUCT-SERVICE/product
+- http://localhost:8082/product-service/product
 
 ## Docs
 
